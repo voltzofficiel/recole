@@ -7,9 +7,9 @@ Config.MarkerDistance = 30.0
 Config.ProgressTime = 8000 -- ms
 
 -- Gestion des ressources
-Config.Cooldown = 5 * 60 * 1000 -- 5 minutes
+Config.Cooldown = 30 * 1000 -- 30 seconds
 Config.RewardItem = 'wood'
-Config.RewardAmount = { min = 1, max = 3 }
+Config.RewardAmount = { min = 1, max = 5 }
 Config.RequireWeapon = nil -- Exemple: 'WEAPON_HATCHET'
 
 -- Affichage
